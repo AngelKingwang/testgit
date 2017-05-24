@@ -1,0 +1,20 @@
+/*------company_1------*/
+.main{width: 920px;margin: 20px auto;background: url(../images/gP_bg.jpg) no-repeat;background-size: cover;overflow: hidden;display: none;}
+.m-name{width:600px;margin: 200px auto 0;}
+.m-name img{float: right;width:130px;height: 180px;}
+.m-name p{line-height: 30px;font-size: 16px;color:#999;}
+.m-name h2{font-size: 30px;}
+.m-name p span{color:#fff;}
+.m-name p em{width:200px;display: inline-block;}
+.m-frends{width:580px;min-height:180px;margin: 0 auto 50px;border: 1px solid #999;font-size: 16px;color:#fff;text-indent: 32px;padding: 10px;line-height: 24px;}
+.m-back{width:150px;height:40px;background: orange;font-size: 20px;text-align: center;line-height: 40px;margin: 0 auto 50px;}
+
+/*------company------*/
+.content{background: #f2f2f2;min-height: 500px;}
+.c_list{width: 980px;margin: 0 auto;}
+.c_list li{width: 210px;min-height: 300px;border: 1px solid #999;margin: 10px 10px;float: left;padding: 5px;cursor: pointer;}
+.c_list li img{width: 100%;height: 180px;background: orange;}
+.c_list li p{font-size: 14px;}
+.c_list li p:nth-of-type(2){text-indent: 32px;margin-top: 10px;height: 80px;overflow: hidden;}
+.c_btn{width: 200px;margin: 0 auto;}
+.c_btn li{width:30px;height: 30px;border: 1px solid #999;float: left;line-height: 30px;border-radius: 50%;background: #ccc;margin: 0 10px;text-align: center;cursor: pointer;}

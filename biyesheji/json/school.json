@@ -1,0 +1,30 @@
+[
+  {
+    "timu":"校园风光一",
+    "src":"../images/school1.jpg"
+  },
+  {
+    "timu":"校园风光二",
+    "src":"../images/school2.jpg"
+  },
+  {
+    "timu":"校园风光三",
+    "src":"../images/school3.jpg"
+  },
+  {
+    "timu":"校园风光四",
+    "src":"../images/school4.jpg"
+  },{
+    "timu":"校园风光五",
+    "src":"../images/school5.jpg"
+  },{
+    "timu":"校园风光六",
+    "src":"../images/school6.jpg"
+  },{
+    "timu":"校园风光七",
+    "src":"../images/school7.jpg"
+  },{
+    "timu":"校园风光八",
+    "src":"../images/school8.jpg"
+  }
+]

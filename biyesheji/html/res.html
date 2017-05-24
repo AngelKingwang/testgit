@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>注册</title>
+  <link rel="stylesheet" type="text/css" href="../css/Reset.css" />
+  <link rel="stylesheet" href="../css/public.css">
+</head>
+<body style="background:#f1f1f1;">
+  <div class="r_header">
+     <h2>注册信息</h2>
+  </div>
+  <form class="r_form" action="">
+    <p><label for="">用户名：</label><input id="name" type="text" placeholder="请输入用户名"></p>
+    <p><label for="">密码：</label><input id="password" type="text" placeholder="6-12位字母、数字、下划线"></p>
+    <p><label for="">确认密码：</label><input id="repass" type="text" placeholder="请再次输入密码"></p>
+    <p><label for="">学号：</label><input id="schoolId" type="text"></p>
+    <p><label for="">生日：</label><input id="birthday" type="text"></p>
+    <p><label for="">电话：</label><input type="text" id="number"></p>
+    <p><label for="">昵称：</label><input id="nicheng" type="text"></p>
+    <p><label for="">邮箱：</label><input id="mail" type="email"></p>
+    <p><label for="">QQ：</label><input id="QQ" type="text"></p>
+    <p><label for="">微信：</label><input id="weixin" type="text"></p>
+    <p><label for="">验证码：</label><input id="mess" type="text" name="" value=""><span class="yanzheng"></span></p>
+    <p class="last_p"><input type="checkbox"><span>我已看过并接受用户协议</span></p>
+    <p><input id="next" type="button" name="" value="下一步"></p>
+  </form>
+  <form action="" id="r_left">
+    <h2>爱好</h2>
+    <p><label for="">星座：</label><input id="xingzuo" type="text"></p>
+    <p><label for="">梦想：</label><input id="dream" type="text"></p>
+    <p><label for="">音乐：</label><input id="music" type="text"></p>
+    <p><label for="">运动：</label><input id="sports" type="text"></p>
+    <p><label for="">游戏：</label><input id="game" type="text"></p>
+    <p><label for="">偶像：</label><input id="idol" type="text"></p>
+    <p><label for="">颜色：</label><input id="color" type="text"></p>
+    <p><label for="">留言：</label><textarea id="liuyan"></textarea></p>
+    <button id="r_btn">提交</button>
+  </form>
+</body>
+<script src="../js/jquery-1.12.4.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../js/public.js"></script>
+</html>

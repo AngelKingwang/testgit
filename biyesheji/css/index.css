@@ -1,0 +1,50 @@
+@charset utf-8;
+body{background:#ffd02e;}
+
+.banner{width: 100%;height: 500px;margin: 0 auto;}
+.banner img{width:100%;height:100%;}
+
+.main{width:920px;margin:0 auto 80px;background:#fff;}
+.main_top{height:200px;background:#faf5aa;margin-bottom: 20px;}
+.main_top p{width:600px;display:inline-block;float:left;text-indent: 20px;margin:20px 0 0 20px;line-height: 24px;}
+.main_top img{width:240px;height:160px;float:right;margin:20px 20px 0 0;}
+.main_con{overflow: hidden;}
+
+.main_zhaopin{width:440px;min-height:600px;float:left;padding: 0 10px;}
+.mz_banner{width:440px;height:240px;position: relative;overflow:hidden;margin-bottom: 20px;}
+.mz_img{width:3150px;height:240px;position:absolute;left: 5px;top:5px;}
+.mz_img li{width:450px;height:240px;float:left;}
+.mz_img li img{width:100%;height:100%;}
+.mz_dian{position:absolute;left:175px;bottom:20px;}
+.mz_dian li{width:10px;height:10px;float:left;display: block;background:rgba(0,0,0,0.5);margin-right: 10px;z-index: 10;border-radius: 50%;}
+.mz_dian .mz_color{background:pink;}
+.mz_info{width:450px;min-height: 340px;margin-bottom: 20px;}
+.mz_info ul li a span{float: right;margin-right: 10px;}
+
+.main_h2{width:440px;border-bottom:2px solid orange;font-size: 20px;font-weight: 100;}
+.main_li li{line-height: 30px;font-size: 14px;cursor: pointer;}
+
+.main_liuyan{width:450px;float:left;margin-bottom: 20px;}
+.main_liuyan ul li{width:400px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;line-height: 24px;cursor: pointer;}
+.main_lunwen{width:450px;float:left;}
+.main_lunwen ul li{cursor: pointer;}
+.main_lunwen ul li span{float: right;margin-right: 10px;}
+
+/*---------c-banner---------*/
+.c_banner{height: 280px;background: url(../images/pic1.jpg) no-repeat;background-size: 100% 100%;}
+.content{width: 1000px;min-height: 400px;margin: 10px auto;}
+.c_left{width:200px;padding:15px;float: left;background: #faf5aa;}
+.c_left h2{width: 100%;font-size: 24px;font-weight: 100;border-bottom: 1px solid orange;}
+.c_orange{color: orange;}
+.c_left li{width: 100%;height: 51px;border-bottom: 1px dashed #fdc17a;line-height: 51px;font-size: 14px;}
+.c_left li:hover{cursor: pointer;margin-left: 10px;color: orange;}
+.c_left ul li span{margin-right: 10px;}
+
+.c_right{width: 680px;float: right;background: #faf5aa;padding: 35px;}
+.cz_top{width: 100%;border-bottom: 1px solid #fdc17a;line-height: 22px;text-align: right;}
+.c_liuyan{display: none;}
+.cb_h2{font-size: 26px;font-weight: 100;text-align: center;}
+.c_zhao h4{font-weight: 100;text-align: center;color: #999;margin: 20px 0;}
+.c_zhao h3{font-size: 18px;margin: 10px 0;}
+.c_zhao p{font-size: 16px;line-height: 26px;}
+.c_liuyan p{font-size: 16px;line-height: 26px;margin-top: 10px;}
